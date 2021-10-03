@@ -1,0 +1,303 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+
+}
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+header
+{
+    background-image: url(images/122900553_2842463865989818_8584255651950803095_n.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 8%;
+
+
+}
+.items
+{
+    height: 100%;
+    background-color:rgba(0, 0, 0,0.6);
+}
+.test h1
+{
+font-weight: 900;
+    font-size: 40px;
+
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: white;
+    padding: 15px;
+    margin-right: 10px;
+}
+.test p
+{
+    font-size: 30px;
+}
+.member h3
+{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: gray;
+}
+.member p
+{
+    font-size: 15px;
+    color: gray;
+}
+.progress-bar 
+{
+    display: flex;
+    align-items: flex-start;
+    
+}    
+.progress-bar .tow
+{
+margin-left: 95%;
+}
+.progress-bar .one
+{
+    margin-left: 5px;
+}
+.btn
+{
+    padding: 2px 5px;
+    font-size: 13px;
+}
+.btn1
+{
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 3px;
+    
+}
+.btn1:hover
+{
+    background-color: transparent;
+}
+.btn2
+{
+    color: black;
+    border-radius: 3px;
+}
+.btn2:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.memory
+{
+    margin-top: 10px;
+text-align: center;
+width: 70%;
+margin: auto;
+margin-bottom: 20px;
+background-color: rgb(226, 226, 226);
+padding: 20px 50px;
+
+}
+.memory h2
+{
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.memory p
+{
+    font-size: 8px;
+    
+}
+.circil-icon
+{
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: white;
+    color: violet;
+    transition-duration: 1s;
+
+}
+.circil-icon:hover
+{
+    background-color: black;
+    color: white;
+}
+.first
+{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+
+
+
+.iteme
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.hello
+{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.caption
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 0;
+    background-color: rgba(230, 234, 238,0.9);
+    width: 90%;
+    height: 90%;
+    justify-content: center;align-items: center;
+    transition: opacity 1s;
+    flex-direction: column
+    
+    
+}
+.caption:hover 
+{
+opacity: 1;
+}
+.word
+{
+    margin-bottom: 20px;
+    transition: margin 0.5s;
+}
+.caption:hover .word
+{
+    margin-bottom: 0%;
+} 
+
+
+
+
+.force
+{
+    position: absolute;
+    top: 50%;
+    left: 270px;
+    background-color: white;
+    height: 100%;
+    width: 470px;
+}
+.parent
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.photo .three
+{
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 8%;
+    font-weight: 600;
+    padding: 20px;
+}
+.photo
+{
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    
+}
+.photo img
+{
+width: 10%;
+border-radius: 50%;
+padding: 20px;
+}
+.photo p
+{
+    font-size: 20px;
+}
+
+
+.four
+{
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 8%;
+    font-weight: 600;
+    padding: 20px;
+    
+}
+.hard
+{
+    overflow: hidden;
+    
+}
+img
+{
+    width: 100%;
+    
+    transition: transform 1s;
+}
+.hard:hover img
+{
+    transform: scale(1.1,1.1);
+}
+h4
+{
+    font-size: 15px;
+}
+.five
+{
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 8%;
+    font-weight: 600;
+    padding: 20px;
+      
+}
+.btn-icon
+{
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+    
+    padding: 10px 40px;
+    
+}
+.btn-icon:hover
+{
+    background-color: white;
+    color: black;
+}
+.logo
+{
+    height: 30vh;
+    width: 150%;
+}
+.finally
+{
+    margin-top: 20px;
+    color: #748182;
+    background-color: #1c1c1c;
+    height: 10vh;
+    padding-top: 30px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+
+}
